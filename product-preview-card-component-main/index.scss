@@ -1,0 +1,65 @@
+main {
+  background: #f2e9e2;
+  justify-content: center;
+  display: grid;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.item {
+  width: 550px;
+  display: flex;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  height: 400px;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  h1 {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: "Fraunces", serif;
+  }
+  h2 {
+    font-family: "Fraunces", serif;
+  }
+  img {
+    width: 250px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+  }
+}
+.item-4 {
+  padding: 30px;
+}
+.btn-1 {
+  width: 200px;
+  height: 30px;
+  background: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  img {
+    width: 10px;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  h2 {
+    color: hsl(158, 36%, 37%);
+  }
+  p {
+    margin-top: 25px;
+  }
+}
